@@ -571,6 +571,105 @@
       "tags": ["web", "exif", "images", "metadata"],
       "type": "website",
       "downloadable": false
+    },
+    {
+      "title": "Best Dictionary List (According to me)",
+      "url": "https://weakpass.com/wordlists/cyclone.hashesorg.hashkiller.combined.txt",
+      "description": "A 15GB text file that is used for dictionary hash cracking (its heavy so don't necessarily feel obligated to use this one in particular).",
+      "category": "Penetration Testing",
+      "tags": ["wordlist", "hashing", "password-cracking"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Cyber.org Tools",
+      "url": "https://tools.cyber.org/dashboard",
+      "description": "Basic tools for the CTFs on cyber.org, including ciphers.",
+      "category": "Ciphers",
+      "tags": ["web", "training", "forensics"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Unix Ninja Hashing Cheatsheet",
+      "url": "https://www.unix-ninja.com/p/A_cheat-sheet_for_password_crackers",
+      "description": "Extraction of hidden data from text files, wordlist manipulation, and filtering.",
+      "category": "Penetration Testing",
+      "tags": ["web", "blog", "cheat-sheet", "hashing", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "How to connect to the JumpBoxes (with an explaination)",
+      "url": "https://www.tecmint.com/access-linux-server-using-a-jump-host/",
+      "description": "Include background on how JumpBoxes work and how you can connect to one (and how to set one up yourself).",
+      "category": "CyberPatriot",
+      "tags": ["web", "blog", "cheat-sheet", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "A-Packets",
+      "url": "https://apackets.com/upload",
+      "description": "Online version of Wireshark for packet analysis. Gives visuals instead of the lines of text but is not always as detailed.",
+      "category": "Network Security",
+      "tags": ["web", "packet-analysis", "beginner"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "IT-Tools",
+      "url": "https://it-tools.tech/",
+      "description": "Probably close to 100 tools from encryption to QR code generation.",
+      "category": "Cryptography & Privacy",
+      "tags": ["web", "beginner", "crypto", "file-conversion", "images", "network", "text", "measurement", "math", "metadata", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "SecLists",
+      "url": "https://github.com/danielmiessler/SecLists",
+      "description": "A ton of the best wordlists, from 100 to 10 million password wordlists created with AI.",
+      "category": "Penetration Testing",
+      "tags": ["web", "hashing", "wordlist"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Simple Hashing Guide",
+      "url": "https://labs.withsecure.com/publications/a-practical-guide-to-cracking-password-hashes",
+      "description": "(May be outdated) <em>For Windows only</em> A simple guide for password cracking.",
+      "category": "Penetration Testing",
+      "tags": ["web", "beginner", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Random Linux Checklist I Found",
+      "url": "https://gist.github.com/bobpaw/a0b6828a5cfa31cfe9007b711a36082f",
+      "description": "A quick Linux checklist (with commands) for competitions.",
+      "category": "CyberPatriot",
+      "tags": ["beginner", "reference", "linux"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Official Linux Checklist from 2020",
+      "url": "https://gitlab.com/daveed9/Linux-Checklist",
+      "description": "Official Linux checklist (with commands) from another team from 2020.",
+      "category": "CyberPatriot",
+      "tags": ["beginner", "reference", "linux"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Forty Bot's Linux Checklist",
+      "url": "https://github.com/Forty-Bot/linux-checklist",
+      "description": "(May be outdated) A comprehensive list of things to check during competitions.",
+      "category": "CyberPatriot",
+      "tags": ["reference", "linux"],
+      "type": "website",
+      "downloadable": false
     }
   ]
 }
