@@ -535,6 +535,42 @@
       "tags": ["web", "exif", "images", "metadata"],
       "type": "website",
       "downloadable": false
+    },
+    {
+      "title": "Steghide Online",
+      "url": "https://georgeom.net/StegOnline/upload",
+      "description": "Free online tool for analyzing Steghide data from images.",
+      "category": "Digital Forensics",
+      "tags": ["web", "steganography", "images", "metadata"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "ExifTool Online",
+      "url": "https://exiftool.online/",
+      "description": "Online interface to the powerful ExifTool for reading and editing image metadata.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "metadata", "images", "exif", "web"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Exif Data Viewer",
+      "url": "https://www.exifdata.com/",
+      "description": "View detailed EXIF and IPTC metadata from digital images online.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "metadata", "images", "exif", "web"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Aperi'Solve",
+      "url": "https://www.aperisolve.com/",
+      "description": "Free online tool for analyzing Exif Data from images. It puts it through a ton of filters.",
+      "category": "Digital Forensics",
+      "tags": ["web", "exif", "images", "metadata"],
+      "type": "website",
+      "downloadable": false
     }
   ]
 }
