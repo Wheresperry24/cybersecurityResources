@@ -526,6 +526,15 @@
       "tags": ["cryptography", "tls", "tool", "library"],
       "type": "download",
       "downloadable": true
+    },
+    {
+      "title": "Jimpl",
+      "url": "https://jimpl.com/",
+      "description": "Free, online tool for analyzing Exif Data from images.",
+      "category": "Digital Forensics",
+      "tags": ["web", "exif", "images", "metadata"],
+      "type": "website",
+      "downloadable": false
     }
   ]
 }
