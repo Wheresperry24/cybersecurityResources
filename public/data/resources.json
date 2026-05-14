@@ -670,6 +670,15 @@
       "tags": ["reference", "linux"],
       "type": "website",
       "downloadable": false
+    },
+    {
+      "title": "Binary Ninja",
+      "url": "https://cloud.binary.ninja/",
+      "description": "(May be outdated) A comprehensive list of things to check during competitions.",
+      "category": "CyberPatriot",
+      "tags": ["analysis", "forensics", "encryption", "ctf"],
+      "type": "website",
+      "downloadable": false
     }
   ]
 }
