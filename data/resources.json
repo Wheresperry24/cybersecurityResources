@@ -1,0 +1,531 @@
+{
+  "meta": {
+    "title": "Cybersecurity Resources",
+    "description": "A curated collection of cybersecurity tools, references, and learning materials.",
+    "lastUpdated": "2026-05-13"
+  },
+  "resources": [
+    {
+      "title": "OWASP Top 10",
+      "url": "https://owasp.org/www-project-top-ten/",
+      "description": "The standard awareness document for web application security risks.",
+      "category": "Web Application Security",
+      "tags": ["web", "owasp", "vulnerabilities", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "PortSwigger Web Security Academy",
+      "url": "https://portswigger.net/web-security",
+      "description": "Free online web security training from the creators of Burp Suite.",
+      "category": "Web Application Security",
+      "tags": ["web", "training", "labs", "burp-suite"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "OWASP Cheat Sheet Series",
+      "url": "https://cheatsheetseries.owasp.org/",
+      "description": "Concise collection of high-value information on specific application security topics.",
+      "category": "Web Application Security",
+      "tags": ["web", "owasp", "reference", "cheat-sheet"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "HackTricks",
+      "url": "https://book.hacktricks.xyz/",
+      "description": "Comprehensive pentesting and hacking methodology wiki.",
+      "category": "Web Application Security",
+      "tags": ["web", "pentesting", "reference", "methodology"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "NIST Cybersecurity Framework",
+      "url": "https://www.nist.gov/cyberframework",
+      "description": "Framework for improving critical infrastructure cybersecurity.",
+      "category": "Frameworks & Standards",
+      "tags": ["framework", "compliance", "governance", "nist"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "CIS Benchmarks",
+      "url": "https://www.cisecurity.org/cis-benchmarks",
+      "description": "Consensus-based security configuration guides for hardening systems.",
+      "category": "Frameworks & Standards",
+      "tags": ["hardening", "compliance", "configuration", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "MITRE ATT&CK Framework",
+      "url": "https://attack.mitre.org/",
+      "description": "Knowledge base of adversary tactics and techniques based on real-world observations.",
+      "category": "Frameworks & Standards",
+      "tags": ["framework", "threat-intelligence", "adversary", "mitre"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "ISO 27001 Overview",
+      "url": "https://www.iso.org/isoiec-27001-information-security.html",
+      "description": "International standard for information security management systems.",
+      "category": "Frameworks & Standards",
+      "tags": ["framework", "compliance", "governance", "iso"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Wireshark",
+      "url": "https://www.wireshark.org/download.html",
+      "description": "Network protocol analyzer for deep inspection of network traffic.",
+      "category": "Network Security",
+      "tags": ["network", "packet-analysis", "forensics", "tool"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Nmap",
+      "url": "https://nmap.org/download",
+      "description": "Network discovery and security auditing utility.",
+      "category": "Network Security",
+      "tags": ["network", "scanning", "reconnaissance", "tool"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Snort",
+      "url": "https://www.snort.org/downloads",
+      "description": "Open-source intrusion detection and prevention system.",
+      "category": "Network Security",
+      "tags": ["network", "ids", "ips", "monitoring", "tool"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Zeek (formerly Bro)",
+      "url": "https://zeek.org/",
+      "description": "Powerful network analysis framework for security monitoring.",
+      "category": "Network Security",
+      "tags": ["network", "monitoring", "forensics", "tool"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Shodan",
+      "url": "https://www.shodan.io/",
+      "description": "Search engine for internet-connected devices and exposed services.",
+      "category": "Network Security",
+      "tags": ["network", "reconnaissance", "osint", "scanning"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Kali Linux",
+      "url": "https://www.kali.org/get-kali/",
+      "description": "Debian-based distribution designed for penetration testing and security auditing.",
+      "category": "Penetration Testing",
+      "tags": ["pentesting", "linux", "tool", "operating-system"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Metasploit Framework",
+      "url": "https://www.metasploit.com/download",
+      "description": "Penetration testing framework for finding and exploiting vulnerabilities.",
+      "category": "Penetration Testing",
+      "tags": ["pentesting", "exploitation", "tool", "framework"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Burp Suite Community Edition",
+      "url": "https://portswigger.net/burp/communitydownload",
+      "description": "Web vulnerability scanner and proxy tool for security testing.",
+      "category": "Penetration Testing",
+      "tags": ["pentesting", "web", "proxy", "tool", "burp-suite"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "PTES - Penetration Testing Execution Standard",
+      "url": "http://www.pentest-standard.org/",
+      "description": "Standard for performing penetration tests with defined methodology.",
+      "category": "Penetration Testing",
+      "tags": ["pentesting", "methodology", "reference", "framework"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Hashcat",
+      "url": "https://hashcat.net/hashcat/",
+      "description": "Advanced password recovery utility supporting multiple attack modes.",
+      "category": "Penetration Testing",
+      "tags": ["pentesting", "password-cracking", "tool"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "John the Ripper",
+      "url": "https://www.openwall.com/john/",
+      "description": "Fast password cracker supporting hundreds of hash and cipher types.",
+      "category": "Penetration Testing",
+      "tags": ["pentesting", "password-cracking", "tool"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "SANS Cyber Aces",
+      "url": "https://www.cyberaces.org/",
+      "description": "Free introductory cybersecurity courses from SANS Institute.",
+      "category": "Training & Education",
+      "tags": ["training", "beginner", "sans", "free"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Cybrary",
+      "url": "https://www.cybrary.it/",
+      "description": "Online cybersecurity training and career development platform.",
+      "category": "Training & Education",
+      "tags": ["training", "certification", "career"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "TryHackMe",
+      "url": "https://tryhackme.com/",
+      "description": "Browser-based cybersecurity training with guided learning paths.",
+      "category": "Training & Education",
+      "tags": ["training", "labs", "beginner", "ctf"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Hack The Box",
+      "url": "https://www.hackthebox.com/",
+      "description": "Online platform for practicing penetration testing skills on vulnerable machines.",
+      "category": "Training & Education",
+      "tags": ["training", "labs", "pentesting", "ctf"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "OverTheWire Wargames",
+      "url": "https://overthewire.org/wargames/",
+      "description": "Series of security wargames for learning concepts through hands-on challenges.",
+      "category": "Training & Education",
+      "tags": ["training", "ctf", "beginner", "linux"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "PicoCTF",
+      "url": "https://picoctf.org/",
+      "description": "Free computer security education program with CTF-style challenges.",
+      "category": "Training & Education",
+      "tags": ["training", "ctf", "beginner", "free"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "MITRE CVE Database",
+      "url": "https://cve.mitre.org/",
+      "description": "Dictionary of publicly known information security vulnerabilities.",
+      "category": "Vulnerability Research",
+      "tags": ["vulnerabilities", "cve", "reference", "mitre"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Exploit Database",
+      "url": "https://www.exploit-db.com/",
+      "description": "Archive of public exploits and corresponding vulnerable software.",
+      "category": "Vulnerability Research",
+      "tags": ["vulnerabilities", "exploits", "reference", "pentesting"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "National Vulnerability Database (NVD)",
+      "url": "https://nvd.nist.gov/",
+      "description": "U.S. government repository of standards-based vulnerability management data.",
+      "category": "Vulnerability Research",
+      "tags": ["vulnerabilities", "cve", "reference", "nist"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "VulnHub",
+      "url": "https://www.vulnhub.com/",
+      "description": "Vulnerable virtual machines for hands-on security practice.",
+      "category": "Vulnerability Research",
+      "tags": ["vulnerabilities", "labs", "pentesting", "training"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Autopsy",
+      "url": "https://www.autopsy.com/download/",
+      "description": "Digital forensics platform for analyzing disk images and file systems.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "disk-analysis", "tool", "incident-response"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Volatility Framework",
+      "url": "https://www.volatilityfoundation.org/releases",
+      "description": "Advanced memory forensics framework for incident response and malware analysis.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "memory-analysis", "tool", "incident-response"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "SANS DFIR Resources",
+      "url": "https://www.sans.org/digital-forensics-incident-response/",
+      "description": "Curated digital forensics and incident response training and tools.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "incident-response", "sans", "training"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Sleuth Kit",
+      "url": "https://www.sleuthkit.org/sleuthkit/download.php",
+      "description": "Collection of command-line tools for investigating disk images.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "disk-analysis", "tool"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "VirusTotal",
+      "url": "https://www.virustotal.com/",
+      "description": "Free service that analyzes files and URLs for viruses and malware.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "scanning", "threat-intelligence", "tool"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "REMnux",
+      "url": "https://remnux.org/",
+      "description": "Linux toolkit for reverse-engineering and analyzing malicious software.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "reverse-engineering", "linux", "tool"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Any.Run",
+      "url": "https://any.run/",
+      "description": "Interactive malware analysis sandbox for investigating suspicious files.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "sandbox", "threat-intelligence"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Ghidra",
+      "url": "https://ghidra-sre.org/",
+      "description": "NSA's software reverse engineering suite for binary analysis.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "reverse-engineering", "tool"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "YARA",
+      "url": "https://virustotal.github.io/yara/",
+      "description": "Pattern matching tool for identifying and classifying malware samples.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "tool", "forensics", "threat-intelligence"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Have I Been Pwned",
+      "url": "https://haveibeenpwned.com/",
+      "description": "Check if your email or phone has been compromised in a data breach.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "breach-data", "reconnaissance"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "OSINT Framework",
+      "url": "https://osintframework.com/",
+      "description": "Collection of OSINT tools organized by category for investigations.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "reconnaissance", "framework", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Maltego",
+      "url": "https://www.maltego.com/downloads/",
+      "description": "Interactive data mining and link analysis tool for OSINT investigations.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "reconnaissance", "tool", "threat-intelligence"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "theHarvester",
+      "url": "https://github.com/laramies/theHarvester",
+      "description": "Tool for gathering emails, subdomains, IPs, and URLs from public sources.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "reconnaissance", "tool", "scanning"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "SpiderFoot",
+      "url": "https://www.spiderfoot.net/",
+      "description": "Automated OSINT collection and reconnaissance tool.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "reconnaissance", "tool", "scanning"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/",
+      "description": "In-depth security news and investigation by Brian Krebs.",
+      "category": "News & Blogs",
+      "tags": ["news", "blog", "threat-intelligence"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "The Hacker News",
+      "url": "https://thehackernews.com/",
+      "description": "Widely read cybersecurity news platform covering latest threats and breaches.",
+      "category": "News & Blogs",
+      "tags": ["news", "threat-intelligence", "vulnerabilities"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Dark Reading",
+      "url": "https://www.darkreading.com/",
+      "description": "Cybersecurity news, analysis, and expert community for security professionals.",
+      "category": "News & Blogs",
+      "tags": ["news", "analysis", "threat-intelligence"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Schneier on Security",
+      "url": "https://www.schneier.com/",
+      "description": "Blog by Bruce Schneier covering security, technology, and privacy.",
+      "category": "News & Blogs",
+      "tags": ["news", "blog", "cryptography", "privacy"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Threatpost",
+      "url": "https://threatpost.com/",
+      "description": "Independent news site covering IT and business security topics.",
+      "category": "News & Blogs",
+      "tags": ["news", "threat-intelligence", "vulnerabilities"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Let's Encrypt",
+      "url": "https://letsencrypt.org/",
+      "description": "Free, automated, and open certificate authority for TLS encryption.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography", "tls", "certificates", "free"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "GnuPG",
+      "url": "https://gnupg.org/download/",
+      "description": "Complete implementation of the OpenPGP standard for encryption and signing.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography", "encryption", "tool", "privacy"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "CyberChef",
+      "url": "https://gchq.github.io/CyberChef/",
+      "description": "Web-based tool for encoding, decoding, encryption, and data analysis.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography", "encoding", "tool", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Tor Project",
+      "url": "https://www.torproject.org/download/",
+      "description": "Free software for anonymous communication over the internet.",
+      "category": "Cryptography & Privacy",
+      "tags": ["privacy", "anonymity", "tool", "network"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "VeraCrypt",
+      "url": "https://www.veracrypt.fr/en/Downloads.html",
+      "description": "Free disk encryption software based on TrueCrypt for securing data at rest.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography", "encryption", "tool", "privacy"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "SANS Internet Storm Center",
+      "url": "https://isc.sans.edu/",
+      "description": "Cooperative cyber threat monitor and alert system.",
+      "category": "Threat Intelligence",
+      "tags": ["threat-intelligence", "monitoring", "sans", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "AlienVault OTX",
+      "url": "https://otx.alienvault.com/",
+      "description": "Open threat intelligence community for sharing and researching threats.",
+      "category": "Threat Intelligence",
+      "tags": ["threat-intelligence", "osint", "ioc", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Abuse.ch",
+      "url": "https://abuse.ch/",
+      "description": "Community-driven threat intelligence on malware and botnets.",
+      "category": "Threat Intelligence",
+      "tags": ["threat-intelligence", "malware", "ioc", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "CISA Known Exploited Vulnerabilities",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "description": "CISA's catalog of vulnerabilities known to be actively exploited.",
+      "category": "Threat Intelligence",
+      "tags": ["threat-intelligence", "vulnerabilities", "cve", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "OpenSSL",
+      "url": "https://www.openssl.org/source/",
+      "description": "Toolkit for TLS and SSL protocols, widely used for cryptographic operations.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography", "tls", "tool", "library"],
+      "type": "download",
+      "downloadable": true
+    }
+  ]
+}
