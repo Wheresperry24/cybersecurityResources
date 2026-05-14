@@ -19,19 +19,20 @@ A static, curated collection of cybersecurity tools, frameworks, training platfo
 
 ```
 cybersecurityResources/
-├── index.html              # Main HTML page
-├── css/
-│   └── style.css           # All styles (dark theme, responsive)
-├── js/
-│   └── app.js              # JSON loading, rendering, filtering
-├── data/
-│   └── resources.json      # Resource data (edit this to add/remove resources)
+├── public/                     # Cloudflare Pages build output directory
+│   ├── index.html              # Main HTML page
+│   ├── css/
+│   │   └── style.css           # All styles (dark theme, responsive)
+│   ├── js/
+│   │   └── app.js              # JSON loading, rendering, filtering
+│   └── data/
+│       └── resources.json      # Resource data (edit this to add/remove resources)
 └── README.md
 ```
 
 ## Adding Resources
 
-Edit `data/resources.json`. Each resource object supports:
+Edit `public/data/resources.json`. Each resource object supports:
 
 ```json
 {
@@ -60,20 +61,20 @@ Edit `data/resources.json`. Each resource object supports:
 ### Cloudflare Pages
 
 1. Push this repository to GitHub
-2. Connect the repo to Cloudflare Pages
-3. Set build output directory to `/` (root)
-4. No build command needed — it's static HTML
+2. Connect the repo in the Cloudflare Pages dashboard
+3. Set **Build command** to `exit 0`
+4. Set **Build output directory** to `public`
 
 ### Local Development
 
-Open `index.html` in a browser, or serve with any static file server:
+Serve the `public` directory with any static file server:
 
 ```bash
 # Python
-python -m http.server 8000
+cd public && python -m http.server 8000
 
 # Node.js
-npx serve .
+npx serve public
 ```
 
 > **Note:** `fetch()` requires a server — opening `index.html` directly via `file://` won't load the JSON in most browsers.
