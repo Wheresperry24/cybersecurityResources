@@ -33,11 +33,83 @@
       "downloadable": false
     },
     {
+      "title": "OWASP ZAP",
+      "url": "https://www.zaproxy.org/",
+      "description": "Free open-source web app security scanner and intercepting proxy.",
+      "category": "Web Application Security",
+      "tags": ["web", "pentesting", "scanning"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "OWASP Juice Shop",
+      "url": "https://owasp.org/www-project-juice-shop/",
+      "description": "Deliberately insecure modern web app for security training.",
+      "category": "Web Application Security",
+      "tags": ["web", "training", "labs"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Web Security Testing Guide",
+      "url": "https://owasp.org/www-project-web-security-testing-guide/",
+      "description": "Open-source guide to testing the security of web apps.",
+      "category": "Web Application Security",
+      "tags": ["web", "pentesting", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "WebGoat",
+      "url": "https://owasp.org/www-project-webgoat/",
+      "description": "Deliberately vulnerable web application for learning web security.",
+      "category": "Web Application Security",
+      "tags": ["web", "training", "labs"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
       "title": "HackTricks",
       "url": "https://book.hacktricks.xyz/",
       "description": "Comprehensive pentesting and hacking methodology wiki.",
       "category": "Web Application Security",
       "tags": ["web", "pentesting", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "OWASP ASVS",
+      "url": "https://owasp.org/www-project-application-security-verification-standard/",
+      "description": "Framework of security requirements for designing and building web apps.",
+      "category": "Frameworks & Standards",
+      "tags": ["web", "standards", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "PCI DSS",
+      "url": "https://www.pcisecuritystandards.org/",
+      "description": "Global data security standard for organizations handling cardholder data.",
+      "category": "Frameworks & Standards",
+      "tags": ["standards", "hardening", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "MITRE D3FEND",
+      "url": "https://d3fend.mitre.org/",
+      "description": "Knowledge base of defensive security countermeasures mapped to ATT&CK.",
+      "category": "Frameworks & Standards",
+      "tags": ["standards", "threat-intel", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "MITRE CAPEC",
+      "url": "https://capec.mitre.org/",
+      "description": "Knowledge base of common attack patterns for understanding weaknesses.",
+      "category": "Frameworks & Standards",
+      "tags": ["standards", "vulnerabilities", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -177,6 +249,51 @@
       "downloadable": true
     },
     {
+      "title": "PentesterLab",
+      "url": "https://pentesterlab.com/",
+      "description": "Hands-on web and system pentesting exercises.",
+      "category": "Training & Education",
+      "tags": ["web", "training", "pentesting", "labs"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Root-Me",
+      "url": "https://www.root-me.org/",
+      "description": "Hundreds of challenges across web, crypto, forensics, and more.",
+      "category": "Training & Education",
+      "tags": ["ctf", "training", "labs"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "CTFtime",
+      "url": "https://ctftime.org/",
+      "description": "Calendar and scoreboard for Capture The Flag competitions.",
+      "category": "Training & Education",
+      "tags": ["ctf", "reference", "training"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Cryptopals",
+      "url": "https://cryptopals.com/",
+      "description": "Hands-on cryptography challenges to learn by solving.",
+      "category": "Training & Education",
+      "tags": ["cryptography", "ctf", "training"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Let's Defend",
+      "url": "https://letsdefend.io/",
+      "description": "Blue team training platform with SOC-style scenarios.",
+      "category": "Training & Education",
+      "tags": ["incident-response", "labs", "training"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
       "title": "SANS Cyber Aces",
       "url": "https://www.cyberaces.org/",
       "description": "Free introductory cybersecurity courses from SANS Institute.",
@@ -227,6 +344,33 @@
       "description": "Free computer security education program with CTF-style challenges.",
       "category": "Training & Education",
       "tags": ["training", "ctf", "beginner"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "OpenVAS",
+      "url": "https://www.greenbone.net/en/",
+      "description": "Open-source vulnerability scanner and management platform.",
+      "category": "Vulnerability Research",
+      "tags": ["network", "scanning", "vulnerabilities"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Fast, template-based vulnerability scanner.",
+      "category": "Vulnerability Research",
+      "tags": ["web", "scanning", "vulnerabilities"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Vulners",
+      "url": "https://vulners.com/",
+      "description": "Search engine for vulnerabilities, exploits, and security data.",
+      "category": "Vulnerability Research",
+      "tags": ["reference", "vulnerabilities"],
       "type": "website",
       "downloadable": false
     },
@@ -303,6 +447,51 @@
       "downloadable": true
     },
     {
+      "title": "Hybrid Analysis",
+      "url": "https://www.hybrid-analysis.com/",
+      "description": "Free malware analysis sandbox service.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "threat-intel"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "MalwareBazaar",
+      "url": "https://bazaar.abuse.ch/",
+      "description": "Community platform for sharing malware samples.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "threat-intel", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "FLARE VM",
+      "url": "https://github.com/mandiant/flare-vm",
+      "description": "Windows malware analysis environment with preinstalled tooling.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "reverse-engineering"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "radare2",
+      "url": "https://rada.re/n/",
+      "description": "Open-source reverse engineering framework for binary analysis.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "reverse-engineering"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "x64dbg",
+      "url": "https://x64dbg.com/",
+      "description": "Open-source debugger for x64/x86 Windows malware analysis.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "reverse-engineering"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
       "title": "VirusTotal",
       "url": "https://www.virustotal.com/",
       "description": "Free service that analyzes files and URLs for viruses and malware.",
@@ -344,6 +533,33 @@
       "description": "Pattern matching tool for identifying and classifying malware samples.",
       "category": "Malware Analysis",
       "tags": ["malware", "forensics", "threat-intel"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Amass",
+      "url": "https://github.com/owasp-amass/amass",
+      "description": "Attack surface mapping and subdomain enumeration tool.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "network", "scanning"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Finds usernames across social networks by username.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "scanning"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "URLScan",
+      "url": "https://urlscan.io/",
+      "description": "Free service for scanning and analyzing websites.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "threat-intel", "scanning"],
       "type": "website",
       "downloadable": false
     },
@@ -393,6 +609,24 @@
       "downloadable": false
     },
     {
+      "title": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/",
+      "description": "Security news, forums, and tech help for a broad audience.",
+      "category": "News & Blogs",
+      "tags": ["news", "threat-intel", "vulnerabilities"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "SecurityWeek",
+      "url": "https://www.securityweek.com/",
+      "description": "Cybersecurity news, analysis, and insights for professionals.",
+      "category": "News & Blogs",
+      "tags": ["news", "threat-intel"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
       "title": "Krebs on Security",
       "url": "https://krebsonsecurity.com/",
       "description": "In-depth security news and investigation by Brian Krebs.",
@@ -434,6 +668,42 @@
       "description": "Independent news site covering IT and business security topics.",
       "category": "News & Blogs",
       "tags": ["news", "threat-intel", "vulnerabilities"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "age",
+      "url": "https://age-encryption.org/",
+      "description": "Simple, modern file encryption tool.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography", "linux"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "KeePassXC",
+      "url": "https://keepassxc.org/",
+      "description": "Free, open-source cross-platform password manager.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography", "privacy", "linux"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "WireGuard",
+      "url": "https://www.wireguard.com/",
+      "description": "Fast, modern VPN protocol and implementation.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography", "network", "privacy"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Privacy Guides",
+      "url": "https://www.privacyguides.org/",
+      "description": "Independent resource for privacy-enhancing tools and practices.",
+      "category": "Cryptography & Privacy",
+      "tags": ["privacy", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -483,6 +753,33 @@
       "downloadable": true
     },
     {
+      "title": "MISP",
+      "url": "https://www.misp-project.org/",
+      "description": "Open-source platform for sharing threat intelligence.",
+      "category": "Threat Intelligence",
+      "tags": ["threat-intel", "reference"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "GreyNoise",
+      "url": "https://www.greynoise.io/",
+      "description": "Distinguishes targeted scanning from internet background noise.",
+      "category": "Threat Intelligence",
+      "tags": ["network", "scanning", "threat-intel"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Cisco Talos",
+      "url": "https://talosintelligence.com/",
+      "description": "Threat intelligence research and vulnerability reports from Cisco.",
+      "category": "Threat Intelligence",
+      "tags": ["news", "reference", "threat-intel", "vulnerabilities"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
       "title": "SANS Internet Storm Center",
       "url": "https://isc.sans.edu/",
       "description": "Cooperative cyber threat monitor and alert system.",
@@ -524,6 +821,42 @@
       "description": "Toolkit for TLS and SSL protocols, widely used for cryptographic operations.",
       "category": "Cryptography & Privacy",
       "tags": ["cryptography", "linux"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "FTK Imager",
+      "url": "https://www.exterro.com/digital-forensics-software/ftk-imager",
+      "description": "Free disk imaging and forensic preview tool.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "incident-response"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "SIFT Workstation",
+      "url": "https://www.sans.org/tools/sift-workstation/",
+      "description": "Linux incident response and forensics toolkit from SANS.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "incident-response", "linux"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "KAPE",
+      "url": "https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape",
+      "description": "Collection and parsing of digital evidence for incident response.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "incident-response"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "PhotoRec",
+      "url": "https://www.cgsecurity.org/wiki/PhotoRec",
+      "description": "File carving and data recovery tool for deleted files.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "linux"],
       "type": "download",
       "downloadable": true
     },
@@ -573,6 +906,51 @@
       "downloadable": false
     },
     {
+      "title": "sqlmap",
+      "url": "https://sqlmap.org/",
+      "description": "Automates detection and exploitation of SQL injection flaws.",
+      "category": "Penetration Testing",
+      "tags": ["web", "pentesting", "scanning", "vulnerabilities"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Bettercap",
+      "url": "https://www.bettercap.org/",
+      "description": "Swiss army knife for network attacks, sniffing, and monitoring.",
+      "category": "Penetration Testing",
+      "tags": ["network", "pentesting"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "ffuf",
+      "url": "https://github.com/ffuf/ffuf",
+      "description": "Fast web fuzzer for directory and parameter discovery.",
+      "category": "Penetration Testing",
+      "tags": ["web", "pentesting", "scanning"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "THC Hydra",
+      "url": "https://github.com/vanhauser-thc/thc-hydra",
+      "description": "Network logon cracker supporting dozens of protocols.",
+      "category": "Penetration Testing",
+      "tags": ["network", "pentesting", "password-cracking"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Impacket",
+      "url": "https://github.com/fortra/impacket",
+      "description": "Python library and tools for working with network protocols.",
+      "category": "Penetration Testing",
+      "tags": ["network", "pentesting"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
       "title": "Best Dictionary List (According to me)",
       "url": "https://weakpass.com/wordlists/cyclone.hashesorg.hashkiller.combined.txt",
       "description": "A 15GB text file that is used for dictionary hash cracking (its heavy so don't necessarily feel obligated to use this one in particular).",
@@ -609,6 +987,33 @@
       "downloadable": false
     },
     {
+      "title": "Suricata",
+      "url": "https://suricata.io/",
+      "description": "High-performance open-source network IDS/IPS and monitoring engine.",
+      "category": "Network Security",
+      "tags": ["network", "threat-intel"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "tcpdump",
+      "url": "https://www.tcpdump.org/",
+      "description": "Command-line packet capture and analysis tool.",
+      "category": "Network Security",
+      "tags": ["network", "forensics"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Security Onion",
+      "url": "https://securityonionsolutions.com/",
+      "description": "Free Linux distribution for network security monitoring.",
+      "category": "Network Security",
+      "tags": ["network", "threat-intel", "linux"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
       "title": "A-Packets",
       "url": "https://apackets.com/upload",
       "description": "Online version of Wireshark for packet analysis. Gives visuals instead of the lines of text but is not always as detailed.",
@@ -641,6 +1046,24 @@
       "description": "(May be outdated) <em>For Windows only</em> A simple guide for password cracking.",
       "category": "Penetration Testing",
       "tags": ["beginner", "reference", "password-cracking"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "CyberPatriot Official Site",
+      "url": "https://www.uscyberpatriot.org/",
+      "description": "Official site for the CyberPatriot national youth cyber defense competition.",
+      "category": "CyberPatriot",
+      "tags": ["beginner", "reference", "training"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Microsoft Security Baselines",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines",
+      "description": "Official Windows security configuration baselines.",
+      "category": "CyberPatriot",
+      "tags": ["hardening", "reference", "standards"],
       "type": "website",
       "downloadable": false
     },
