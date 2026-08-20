@@ -114,13 +114,20 @@
     dom.tagContainer.innerHTML = "";
 
     allTags.forEach((totalCount, tag) => {
-      const btn = document.createElement("button");
-      btn.className = "tag-btn" + (activeTags.has(tag) ? " active" : "");
-      btn.type = "button";
-
       const displayCount = activeTags.size > 0
         ? (filteredCounts.get(tag) || 0)
         : totalCount;
+
+      // While filtering, hide tags that have zero matches in the current
+      // results so the sticky header doesn't show dead options. Active tags
+      // stay visible so they can always be deselected.
+      if (activeTags.size > 0 && displayCount === 0 && !activeTags.has(tag)) {
+        return;
+      }
+
+      const btn = document.createElement("button");
+      btn.className = "tag-btn" + (activeTags.has(tag) ? " active" : "");
+      btn.type = "button";
 
       btn.innerHTML = `${escapeHTML(tag)}<span class="tag-count">${displayCount}</span>`;
       btn.addEventListener("click", () => toggleTag(tag));
