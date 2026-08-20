@@ -2,7 +2,7 @@
   "meta": {
     "title": "Cybersecurity Resources",
     "description": "A curated collection of cybersecurity tools, references, and learning materials.",
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-08-19"
   },
   "resources": [
     {
@@ -10,7 +10,7 @@
       "url": "https://owasp.org/www-project-top-ten/",
       "description": "The standard awareness document for web application security risks.",
       "category": "Web Application Security",
-      "tags": ["web", "owasp", "vulnerabilities", "reference"],
+      "tags": ["web", "vulnerabilities", "reference", "standards"],
       "type": "website",
       "downloadable": false
     },
@@ -19,7 +19,7 @@
       "url": "https://portswigger.net/web-security",
       "description": "Free online web security training from the creators of Burp Suite.",
       "category": "Web Application Security",
-      "tags": ["web", "training", "labs", "burp-suite"],
+      "tags": ["web", "training", "labs"],
       "type": "website",
       "downloadable": false
     },
@@ -28,7 +28,7 @@
       "url": "https://cheatsheetseries.owasp.org/",
       "description": "Concise collection of high-value information on specific application security topics.",
       "category": "Web Application Security",
-      "tags": ["web", "owasp", "reference", "cheat-sheet"],
+      "tags": ["web", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -37,7 +37,7 @@
       "url": "https://book.hacktricks.xyz/",
       "description": "Comprehensive pentesting and hacking methodology wiki.",
       "category": "Web Application Security",
-      "tags": ["web", "pentesting", "reference", "methodology"],
+      "tags": ["web", "pentesting", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -46,7 +46,7 @@
       "url": "https://www.nist.gov/cyberframework",
       "description": "Framework for improving critical infrastructure cybersecurity.",
       "category": "Frameworks & Standards",
-      "tags": ["framework", "compliance", "governance", "nist"],
+      "tags": ["standards"],
       "type": "website",
       "downloadable": false
     },
@@ -55,7 +55,7 @@
       "url": "https://www.cisecurity.org/cis-benchmarks",
       "description": "Consensus-based security configuration guides for hardening systems.",
       "category": "Frameworks & Standards",
-      "tags": ["hardening", "compliance", "configuration", "reference"],
+      "tags": ["standards", "hardening"],
       "type": "website",
       "downloadable": false
     },
@@ -64,7 +64,7 @@
       "url": "https://attack.mitre.org/",
       "description": "Knowledge base of adversary tactics and techniques based on real-world observations.",
       "category": "Frameworks & Standards",
-      "tags": ["framework", "threat-intelligence", "adversary", "mitre"],
+      "tags": ["standards", "threat-intel"],
       "type": "website",
       "downloadable": false
     },
@@ -73,7 +73,7 @@
       "url": "https://www.iso.org/isoiec-27001-information-security.html",
       "description": "International standard for information security management systems.",
       "category": "Frameworks & Standards",
-      "tags": ["framework", "compliance", "governance", "iso"],
+      "tags": ["standards"],
       "type": "website",
       "downloadable": false
     },
@@ -82,7 +82,7 @@
       "url": "https://www.wireshark.org/download.html",
       "description": "Network protocol analyzer for deep inspection of network traffic.",
       "category": "Network Security",
-      "tags": ["network", "packet-analysis", "forensics", "tool"],
+      "tags": ["network", "forensics"],
       "type": "download",
       "downloadable": true
     },
@@ -91,7 +91,7 @@
       "url": "https://nmap.org/download",
       "description": "Network discovery and security auditing utility.",
       "category": "Network Security",
-      "tags": ["network", "scanning", "reconnaissance", "tool"],
+      "tags": ["network", "scanning"],
       "type": "download",
       "downloadable": true
     },
@@ -100,7 +100,7 @@
       "url": "https://www.snort.org/downloads",
       "description": "Open-source intrusion detection and prevention system.",
       "category": "Network Security",
-      "tags": ["network", "ids", "ips", "monitoring", "tool"],
+      "tags": ["network", "threat-intel"],
       "type": "download",
       "downloadable": true
     },
@@ -109,7 +109,7 @@
       "url": "https://zeek.org/",
       "description": "Powerful network analysis framework for security monitoring.",
       "category": "Network Security",
-      "tags": ["network", "monitoring", "forensics", "tool"],
+      "tags": ["network", "forensics"],
       "type": "website",
       "downloadable": false
     },
@@ -117,8 +117,8 @@
       "title": "Shodan",
       "url": "https://www.shodan.io/",
       "description": "Search engine for internet-connected devices and exposed services.",
-      "category": "Network Security",
-      "tags": ["network", "reconnaissance", "osint", "scanning"],
+      "category": "OSINT & Reconnaissance",
+      "tags": ["network", "osint", "scanning"],
       "type": "website",
       "downloadable": false
     },
@@ -127,7 +127,7 @@
       "url": "https://www.kali.org/get-kali/",
       "description": "Debian-based distribution designed for penetration testing and security auditing.",
       "category": "Penetration Testing",
-      "tags": ["pentesting", "linux", "tool", "operating-system"],
+      "tags": ["pentesting", "linux"],
       "type": "download",
       "downloadable": true
     },
@@ -136,7 +136,7 @@
       "url": "https://www.metasploit.com/download",
       "description": "Penetration testing framework for finding and exploiting vulnerabilities.",
       "category": "Penetration Testing",
-      "tags": ["pentesting", "exploitation", "tool", "framework"],
+      "tags": ["pentesting"],
       "type": "download",
       "downloadable": true
     },
@@ -145,7 +145,7 @@
       "url": "https://portswigger.net/burp/communitydownload",
       "description": "Web vulnerability scanner and proxy tool for security testing.",
       "category": "Penetration Testing",
-      "tags": ["pentesting", "web", "proxy", "tool", "burp-suite"],
+      "tags": ["web", "pentesting", "scanning"],
       "type": "download",
       "downloadable": true
     },
@@ -154,7 +154,7 @@
       "url": "http://www.pentest-standard.org/",
       "description": "Standard for performing penetration tests with defined methodology.",
       "category": "Penetration Testing",
-      "tags": ["pentesting", "methodology", "reference", "framework"],
+      "tags": ["pentesting", "standards"],
       "type": "website",
       "downloadable": false
     },
@@ -163,7 +163,7 @@
       "url": "https://hashcat.net/hashcat/",
       "description": "Advanced password recovery utility supporting multiple attack modes.",
       "category": "Penetration Testing",
-      "tags": ["pentesting", "password-cracking", "tool"],
+      "tags": ["pentesting", "password-cracking"],
       "type": "download",
       "downloadable": true
     },
@@ -172,7 +172,7 @@
       "url": "https://www.openwall.com/john/",
       "description": "Fast password cracker supporting hundreds of hash and cipher types.",
       "category": "Penetration Testing",
-      "tags": ["pentesting", "password-cracking", "tool"],
+      "tags": ["pentesting", "password-cracking"],
       "type": "download",
       "downloadable": true
     },
@@ -181,7 +181,7 @@
       "url": "https://www.cyberaces.org/",
       "description": "Free introductory cybersecurity courses from SANS Institute.",
       "category": "Training & Education",
-      "tags": ["training", "beginner", "sans", "free"],
+      "tags": ["training", "beginner"],
       "type": "website",
       "downloadable": false
     },
@@ -190,7 +190,7 @@
       "url": "https://www.cybrary.it/",
       "description": "Online cybersecurity training and career development platform.",
       "category": "Training & Education",
-      "tags": ["training", "certification", "career"],
+      "tags": ["training", "beginner"],
       "type": "website",
       "downloadable": false
     },
@@ -226,7 +226,7 @@
       "url": "https://picoctf.org/",
       "description": "Free computer security education program with CTF-style challenges.",
       "category": "Training & Education",
-      "tags": ["training", "ctf", "beginner", "free"],
+      "tags": ["training", "ctf", "beginner"],
       "type": "website",
       "downloadable": false
     },
@@ -235,7 +235,7 @@
       "url": "https://cve.mitre.org/",
       "description": "Dictionary of publicly known information security vulnerabilities.",
       "category": "Vulnerability Research",
-      "tags": ["vulnerabilities", "cve", "reference", "mitre"],
+      "tags": ["vulnerabilities", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -244,7 +244,7 @@
       "url": "https://www.exploit-db.com/",
       "description": "Archive of public exploits and corresponding vulnerable software.",
       "category": "Vulnerability Research",
-      "tags": ["vulnerabilities", "exploits", "reference", "pentesting"],
+      "tags": ["vulnerabilities", "pentesting", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -253,7 +253,7 @@
       "url": "https://nvd.nist.gov/",
       "description": "U.S. government repository of standards-based vulnerability management data.",
       "category": "Vulnerability Research",
-      "tags": ["vulnerabilities", "cve", "reference", "nist"],
+      "tags": ["vulnerabilities", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -261,7 +261,7 @@
       "title": "VulnHub",
       "url": "https://www.vulnhub.com/",
       "description": "Vulnerable virtual machines for hands-on security practice.",
-      "category": "Vulnerability Research",
+      "category": "Training & Education",
       "tags": ["vulnerabilities", "labs", "pentesting", "training"],
       "type": "website",
       "downloadable": false
@@ -271,7 +271,7 @@
       "url": "https://www.autopsy.com/download/",
       "description": "Digital forensics platform for analyzing disk images and file systems.",
       "category": "Digital Forensics",
-      "tags": ["forensics", "disk-analysis", "tool", "incident-response"],
+      "tags": ["forensics", "incident-response"],
       "type": "download",
       "downloadable": true
     },
@@ -280,7 +280,7 @@
       "url": "https://www.volatilityfoundation.org/releases",
       "description": "Advanced memory forensics framework for incident response and malware analysis.",
       "category": "Digital Forensics",
-      "tags": ["forensics", "memory-analysis", "tool", "incident-response"],
+      "tags": ["forensics", "incident-response", "malware"],
       "type": "download",
       "downloadable": true
     },
@@ -289,7 +289,7 @@
       "url": "https://www.sans.org/digital-forensics-incident-response/",
       "description": "Curated digital forensics and incident response training and tools.",
       "category": "Digital Forensics",
-      "tags": ["forensics", "incident-response", "sans", "training"],
+      "tags": ["forensics", "incident-response", "training"],
       "type": "website",
       "downloadable": false
     },
@@ -298,7 +298,7 @@
       "url": "https://www.sleuthkit.org/sleuthkit/download.php",
       "description": "Collection of command-line tools for investigating disk images.",
       "category": "Digital Forensics",
-      "tags": ["forensics", "disk-analysis", "tool"],
+      "tags": ["forensics", "incident-response", "linux"],
       "type": "download",
       "downloadable": true
     },
@@ -307,7 +307,7 @@
       "url": "https://www.virustotal.com/",
       "description": "Free service that analyzes files and URLs for viruses and malware.",
       "category": "Malware Analysis",
-      "tags": ["malware", "scanning", "threat-intelligence", "tool"],
+      "tags": ["malware", "scanning", "threat-intel"],
       "type": "website",
       "downloadable": false
     },
@@ -316,7 +316,7 @@
       "url": "https://remnux.org/",
       "description": "Linux toolkit for reverse-engineering and analyzing malicious software.",
       "category": "Malware Analysis",
-      "tags": ["malware", "reverse-engineering", "linux", "tool"],
+      "tags": ["malware", "reverse-engineering", "linux"],
       "type": "download",
       "downloadable": true
     },
@@ -325,7 +325,7 @@
       "url": "https://any.run/",
       "description": "Interactive malware analysis sandbox for investigating suspicious files.",
       "category": "Malware Analysis",
-      "tags": ["malware", "sandbox", "threat-intelligence"],
+      "tags": ["malware", "threat-intel"],
       "type": "website",
       "downloadable": false
     },
@@ -334,7 +334,7 @@
       "url": "https://ghidra-sre.org/",
       "description": "NSA's software reverse engineering suite for binary analysis.",
       "category": "Malware Analysis",
-      "tags": ["malware", "reverse-engineering", "tool"],
+      "tags": ["malware", "reverse-engineering"],
       "type": "download",
       "downloadable": true
     },
@@ -343,7 +343,7 @@
       "url": "https://virustotal.github.io/yara/",
       "description": "Pattern matching tool for identifying and classifying malware samples.",
       "category": "Malware Analysis",
-      "tags": ["malware", "tool", "forensics", "threat-intelligence"],
+      "tags": ["malware", "forensics", "threat-intel"],
       "type": "website",
       "downloadable": false
     },
@@ -352,7 +352,7 @@
       "url": "https://haveibeenpwned.com/",
       "description": "Check if your email or phone has been compromised in a data breach.",
       "category": "OSINT & Reconnaissance",
-      "tags": ["osint", "breach-data", "reconnaissance"],
+      "tags": ["osint"],
       "type": "website",
       "downloadable": false
     },
@@ -361,7 +361,7 @@
       "url": "https://osintframework.com/",
       "description": "Collection of OSINT tools organized by category for investigations.",
       "category": "OSINT & Reconnaissance",
-      "tags": ["osint", "reconnaissance", "framework", "reference"],
+      "tags": ["osint", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -370,7 +370,7 @@
       "url": "https://www.maltego.com/downloads/",
       "description": "Interactive data mining and link analysis tool for OSINT investigations.",
       "category": "OSINT & Reconnaissance",
-      "tags": ["osint", "reconnaissance", "tool", "threat-intelligence"],
+      "tags": ["osint", "threat-intel"],
       "type": "download",
       "downloadable": true
     },
@@ -379,7 +379,7 @@
       "url": "https://github.com/laramies/theHarvester",
       "description": "Tool for gathering emails, subdomains, IPs, and URLs from public sources.",
       "category": "OSINT & Reconnaissance",
-      "tags": ["osint", "reconnaissance", "tool", "scanning"],
+      "tags": ["osint", "scanning"],
       "type": "website",
       "downloadable": false
     },
@@ -388,7 +388,7 @@
       "url": "https://www.spiderfoot.net/",
       "description": "Automated OSINT collection and reconnaissance tool.",
       "category": "OSINT & Reconnaissance",
-      "tags": ["osint", "reconnaissance", "tool", "scanning"],
+      "tags": ["osint", "scanning"],
       "type": "website",
       "downloadable": false
     },
@@ -397,7 +397,7 @@
       "url": "https://krebsonsecurity.com/",
       "description": "In-depth security news and investigation by Brian Krebs.",
       "category": "News & Blogs",
-      "tags": ["news", "blog", "threat-intelligence"],
+      "tags": ["news", "threat-intel"],
       "type": "website",
       "downloadable": false
     },
@@ -406,7 +406,7 @@
       "url": "https://thehackernews.com/",
       "description": "Widely read cybersecurity news platform covering latest threats and breaches.",
       "category": "News & Blogs",
-      "tags": ["news", "threat-intelligence", "vulnerabilities"],
+      "tags": ["news", "threat-intel", "vulnerabilities"],
       "type": "website",
       "downloadable": false
     },
@@ -415,7 +415,7 @@
       "url": "https://www.darkreading.com/",
       "description": "Cybersecurity news, analysis, and expert community for security professionals.",
       "category": "News & Blogs",
-      "tags": ["news", "analysis", "threat-intelligence"],
+      "tags": ["news", "threat-intel"],
       "type": "website",
       "downloadable": false
     },
@@ -424,7 +424,7 @@
       "url": "https://www.schneier.com/",
       "description": "Blog by Bruce Schneier covering security, technology, and privacy.",
       "category": "News & Blogs",
-      "tags": ["news", "blog", "cryptography", "privacy"],
+      "tags": ["news", "cryptography", "privacy"],
       "type": "website",
       "downloadable": false
     },
@@ -433,7 +433,7 @@
       "url": "https://threatpost.com/",
       "description": "Independent news site covering IT and business security topics.",
       "category": "News & Blogs",
-      "tags": ["news", "threat-intelligence", "vulnerabilities"],
+      "tags": ["news", "threat-intel", "vulnerabilities"],
       "type": "website",
       "downloadable": false
     },
@@ -442,7 +442,7 @@
       "url": "https://letsencrypt.org/",
       "description": "Free, automated, and open certificate authority for TLS encryption.",
       "category": "Cryptography & Privacy",
-      "tags": ["cryptography", "tls", "certificates", "free"],
+      "tags": ["cryptography"],
       "type": "website",
       "downloadable": false
     },
@@ -451,7 +451,7 @@
       "url": "https://gnupg.org/download/",
       "description": "Complete implementation of the OpenPGP standard for encryption and signing.",
       "category": "Cryptography & Privacy",
-      "tags": ["cryptography", "encryption", "tool", "privacy"],
+      "tags": ["cryptography", "privacy", "linux"],
       "type": "download",
       "downloadable": true
     },
@@ -460,7 +460,7 @@
       "url": "https://gchq.github.io/CyberChef/",
       "description": "Web-based tool for encoding, decoding, encryption, and data analysis.",
       "category": "Cryptography & Privacy",
-      "tags": ["cryptography", "encoding", "tool", "reference"],
+      "tags": ["cryptography", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -469,7 +469,7 @@
       "url": "https://www.torproject.org/download/",
       "description": "Free software for anonymous communication over the internet.",
       "category": "Cryptography & Privacy",
-      "tags": ["privacy", "anonymity", "tool", "network"],
+      "tags": ["privacy", "network"],
       "type": "download",
       "downloadable": true
     },
@@ -478,7 +478,7 @@
       "url": "https://www.veracrypt.fr/en/Downloads.html",
       "description": "Free disk encryption software based on TrueCrypt for securing data at rest.",
       "category": "Cryptography & Privacy",
-      "tags": ["cryptography", "encryption", "tool", "privacy"],
+      "tags": ["cryptography", "privacy", "linux"],
       "type": "download",
       "downloadable": true
     },
@@ -487,7 +487,7 @@
       "url": "https://isc.sans.edu/",
       "description": "Cooperative cyber threat monitor and alert system.",
       "category": "Threat Intelligence",
-      "tags": ["threat-intelligence", "monitoring", "sans", "reference"],
+      "tags": ["threat-intel", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -496,7 +496,7 @@
       "url": "https://otx.alienvault.com/",
       "description": "Open threat intelligence community for sharing and researching threats.",
       "category": "Threat Intelligence",
-      "tags": ["threat-intelligence", "osint", "ioc", "reference"],
+      "tags": ["threat-intel", "osint", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -505,7 +505,7 @@
       "url": "https://abuse.ch/",
       "description": "Community-driven threat intelligence on malware and botnets.",
       "category": "Threat Intelligence",
-      "tags": ["threat-intelligence", "malware", "ioc", "reference"],
+      "tags": ["threat-intel", "malware", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -514,7 +514,7 @@
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "description": "CISA's catalog of vulnerabilities known to be actively exploited.",
       "category": "Threat Intelligence",
-      "tags": ["threat-intelligence", "vulnerabilities", "cve", "reference"],
+      "tags": ["threat-intel", "vulnerabilities", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -523,7 +523,7 @@
       "url": "https://www.openssl.org/source/",
       "description": "Toolkit for TLS and SSL protocols, widely used for cryptographic operations.",
       "category": "Cryptography & Privacy",
-      "tags": ["cryptography", "tls", "tool", "library"],
+      "tags": ["cryptography", "linux"],
       "type": "download",
       "downloadable": true
     },
@@ -532,7 +532,7 @@
       "url": "https://jimpl.com/",
       "description": "Free, online tool for analyzing Exif Data from images.",
       "category": "Digital Forensics",
-      "tags": ["web", "exif", "images", "metadata"],
+      "tags": ["forensics"],
       "type": "website",
       "downloadable": false
     },
@@ -541,7 +541,7 @@
       "url": "https://georgeom.net/StegOnline/upload",
       "description": "Free online tool for analyzing Steghide data from images.",
       "category": "Digital Forensics",
-      "tags": ["web", "steganography", "images", "metadata"],
+      "tags": ["forensics", "steganography"],
       "type": "website",
       "downloadable": false
     },
@@ -550,7 +550,7 @@
       "url": "https://exiftool.online/",
       "description": "Online interface to the powerful ExifTool for reading and editing image metadata.",
       "category": "Digital Forensics",
-      "tags": ["forensics", "metadata", "images", "exif", "web"],
+      "tags": ["forensics"],
       "type": "website",
       "downloadable": false
     },
@@ -559,7 +559,7 @@
       "url": "https://www.exifdata.com/",
       "description": "View detailed EXIF and IPTC metadata from digital images online.",
       "category": "Digital Forensics",
-      "tags": ["forensics", "metadata", "images", "exif", "web"],
+      "tags": ["forensics"],
       "type": "website",
       "downloadable": false
     },
@@ -568,7 +568,7 @@
       "url": "https://www.aperisolve.com/",
       "description": "Free online tool for analyzing Exif Data from images. It puts it through a ton of filters.",
       "category": "Digital Forensics",
-      "tags": ["web", "exif", "images", "metadata"],
+      "tags": ["forensics", "steganography"],
       "type": "website",
       "downloadable": false
     },
@@ -577,7 +577,7 @@
       "url": "https://weakpass.com/wordlists/cyclone.hashesorg.hashkiller.combined.txt",
       "description": "A 15GB text file that is used for dictionary hash cracking (its heavy so don't necessarily feel obligated to use this one in particular).",
       "category": "Penetration Testing",
-      "tags": ["wordlist", "hashing", "password-cracking"],
+      "tags": ["password-cracking", "wordlists"],
       "type": "download",
       "downloadable": true
     },
@@ -585,8 +585,8 @@
       "title": "Cyber.org Tools",
       "url": "https://tools.cyber.org/dashboard",
       "description": "Basic tools for the CTFs on cyber.org, including ciphers.",
-      "category": "Ciphers",
-      "tags": ["web", "training", "forensics"],
+      "category": "Training & Education",
+      "tags": ["ctf", "training", "cryptography"],
       "type": "website",
       "downloadable": false
     },
@@ -595,7 +595,7 @@
       "url": "https://www.unix-ninja.com/p/A_cheat-sheet_for_password_crackers",
       "description": "Extraction of hidden data from text files, wordlist manipulation, and filtering.",
       "category": "Penetration Testing",
-      "tags": ["web", "blog", "cheat-sheet", "hashing", "reference"],
+      "tags": ["password-cracking", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -604,7 +604,7 @@
       "url": "https://www.tecmint.com/access-linux-server-using-a-jump-host/",
       "description": "Include background on how JumpBoxes work and how you can connect to one (and how to set one up yourself).",
       "category": "CyberPatriot",
-      "tags": ["web", "blog", "cheat-sheet", "reference"],
+      "tags": ["linux", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -613,7 +613,7 @@
       "url": "https://apackets.com/upload",
       "description": "Online version of Wireshark for packet analysis. Gives visuals instead of the lines of text but is not always as detailed.",
       "category": "Network Security",
-      "tags": ["web", "packet-analysis", "beginner"],
+      "tags": ["network", "beginner"],
       "type": "website",
       "downloadable": false
     },
@@ -622,7 +622,7 @@
       "url": "https://it-tools.tech/",
       "description": "Probably close to 100 tools from encryption to QR code generation.",
       "category": "Cryptography & Privacy",
-      "tags": ["web", "beginner", "crypto", "file-conversion", "images", "network", "text", "measurement", "math", "metadata", "reference"],
+      "tags": ["cryptography", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -631,7 +631,7 @@
       "url": "https://github.com/danielmiessler/SecLists",
       "description": "A ton of the best wordlists, from 100 to 10 million password wordlists created with AI.",
       "category": "Penetration Testing",
-      "tags": ["web", "hashing", "wordlist"],
+      "tags": ["password-cracking", "wordlists", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -640,7 +640,7 @@
       "url": "https://labs.withsecure.com/publications/a-practical-guide-to-cracking-password-hashes",
       "description": "(May be outdated) <em>For Windows only</em> A simple guide for password cracking.",
       "category": "Penetration Testing",
-      "tags": ["web", "beginner", "reference"],
+      "tags": ["beginner", "reference", "password-cracking"],
       "type": "website",
       "downloadable": false
     },
@@ -649,7 +649,7 @@
       "url": "https://gist.github.com/bobpaw/a0b6828a5cfa31cfe9007b711a36082f",
       "description": "A quick Linux checklist (with commands) for competitions.",
       "category": "CyberPatriot",
-      "tags": ["beginner", "reference", "linux"],
+      "tags": ["linux", "beginner", "hardening", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -658,7 +658,7 @@
       "url": "https://gitlab.com/daveed9/Linux-Checklist",
       "description": "Official Linux checklist (with commands) from another team from 2020.",
       "category": "CyberPatriot",
-      "tags": ["beginner", "reference", "linux"],
+      "tags": ["linux", "hardening", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -667,7 +667,7 @@
       "url": "https://github.com/Forty-Bot/linux-checklist",
       "description": "(May be outdated) A comprehensive list of things to check during competitions.",
       "category": "CyberPatriot",
-      "tags": ["reference", "linux"],
+      "tags": ["linux", "hardening", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -675,8 +675,8 @@
       "title": "Binary Ninja",
       "url": "https://cloud.binary.ninja/",
       "description": "Free binary analysis in your browser",
-      "category": "Digital Forensics",
-      "tags": ["analysis", "forensics", "encryption", "ctf"],
+      "category": "Malware Analysis",
+      "tags": ["reverse-engineering", "ctf"],
       "type": "website",
       "downloadable": false
     }
