@@ -1,6 +1,6 @@
 # Cybersecurity Resources
 
-A static, curated collection of cybersecurity tools, frameworks, training platforms, and reference materials. Built with plain HTML, CSS, and JavaScript — no frameworks, no backend, no database.
+A static, curated collection of cybersecurity tools, frameworks, training platforms, and reference materials..
 
 ## Features
 
